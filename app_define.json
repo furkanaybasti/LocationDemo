@@ -1,0 +1,18 @@
+{
+  "fileVersion": "1",
+  "name": "Cordova-Hms-Location-Demo",
+  "description": "",
+  "zipName": "cordova-hms-location-demo",
+  "packageName": "cordova-hms-location-demo",
+  "version": "4.0.4.300",
+  "type": "microService",
+  "processes": { "Cordova-Hms-Location-Demo": { "subscribes": [] } },
+  "files": [
+    "./docs",
+    "./www",
+    "config.xml",
+    "LICENCE",
+    "package.json",
+    "README.md"
+  ]
+}

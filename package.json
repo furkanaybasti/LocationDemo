@@ -1,0 +1,38 @@
+{
+  "name": "com.huawei.hms.location.demo",
+  "displayName": "HMSLocationDemo",
+  "version": "4.0.4-300",
+  "description": "A sample Apache Cordova application that uses HMS LocationKit SDK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hmscore/cordova-plugin-hms-location": "file:../../HP_HMSCore_HMSCore-Plugin-Cordova_Location-Library-master",
+    "cordova-android": "^8.1.0"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-hms-location": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "files": [
+    "./docs",
+    "./www",
+    "config.xml",
+    "LICENCE",
+    "package.json",
+    "README.md"
+  ]
+}
